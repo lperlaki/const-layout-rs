@@ -1,0 +1,13 @@
+[package]
+name = "const-layout"
+version = "0.1.0"
+authors = ["Liam Perlaki <lperlaki@icloud.com>"]
+edition = "2018"
+repository = "https://github.com/lperlaki/const-layout-rs"
+description = "Compile Time checked Layout bounds"
+license = "MIT"
+readme = "./README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
