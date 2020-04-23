@@ -3,11 +3,11 @@
 use core::mem::{align_of, size_of};
 
 #[doc(hidden)]
-pub struct Size<const SIZE: usize>;
+pub enum Size<const SIZE: usize> {}
 
 #[doc(hidden)]
 
-pub struct Align<const ALIGN: usize>;
+pub enum Align<const ALIGN: usize> {}
 
 #[doc(hidden)]
 pub unsafe trait CL {
