@@ -6,7 +6,6 @@ use core::mem::{align_of, size_of};
 pub enum Size<const SIZE: usize> {}
 
 #[doc(hidden)]
-
 pub enum Align<const ALIGN: usize> {}
 
 #[doc(hidden)]
